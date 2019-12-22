@@ -32,7 +32,7 @@ pipeline {
             args '--entrypoint=\'\''
         }
             }
-           )
+        }
        stage('Deliver1') {
         agent {
               docker {
